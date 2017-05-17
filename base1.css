@@ -20,6 +20,10 @@ table {
 img {
     max-width: 50%;
 }
+
+input {
+    vertical-align:middle;
+}
 /* main */
 body {
     background: #f2f2f2;
