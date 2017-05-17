@@ -1,0 +1,157 @@
+/* css reset */
+html,body,ul,ol,li,dl,dd,dt,p,td,th,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,select,textarea,blockquote,label{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 16px simhei,'microsoft yahei';
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    border-spancing: 0;
+}
+
+img {
+    max-width: 50%;
+}
+/* main */
+body {
+    background: #f2f2f2;
+}
+header,footer {
+    height: 80px;
+    background: #333;
+    color: #fff;
+    margin-bottom: 30px;
+}
+header ul {
+    float: right;
+    height: 80px;
+    line-height: 80px;
+    margin-right: 30px;
+}
+ul li:nth-child(4) {
+    padding-right: 0px;
+}
+header h1 {
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    margin-left: 30px;
+}
+header ul li {
+    float: left;
+    padding-right: 30px;
+}
+header ul li a{
+    color: #fff;
+}
+section {
+    width: 93%;
+    margin: 0 auto 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+section h2,h3 {
+    margin: 10px 0;
+}
+section h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-left: 3px solid #222;
+}
+section h3 {
+    color: #444;
+    font-size: 20px;
+}
+section span {
+    color: #666;
+    font-size: 14px;
+}
+section p {
+    text-indent: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: 18px/150% simhei;
+}
+section figcaption {
+    font: 20px/150% simhei;
+}
+section figure {
+
+}
+section figure img {
+    max-height: 50%;
+    border: 8px solid #eee;
+    vertical-align: middle;
+}
+section ol {
+    font-size: 16px;
+    margin: 10px 0  10px 40px;
+}
+section table {
+    margin-top: 20px;
+    border: 0;
+}
+section table thead {
+    background: #ccc;
+    color: #fff;
+}
+section table td,th {
+    border: 0;
+    padding: 10px 36px;
+}
+section fieldset {
+    padding: 20px;
+}
+section fieldset legend {
+    color: #fff;
+    width: 82px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 18px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background: dodgerblue;
+}
+section form p {
+    text-indent: 0;
+    font: 14px simhei;
+    color: dodgerblue;
+}
+section form label {
+    display: inline-block;
+    height: 30px;
+}
+section form input {
+    height: 24px;
+    font-family: simhei;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1.5px solid #666;
+}
+section form input[type='radio']{
+    padding-top: 5px;
+}
+section textarea {
+    /* float: left; */
+    font-family: simhei;
+}
+footer {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+footer p {
+    text-align: center;
+    margin-top: 25px;
+
+}
